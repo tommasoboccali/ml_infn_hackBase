@@ -13,4 +13,4 @@ Tutti i files sono supposti funzionare sia da colab, sia da JupyterNotebook dent
 
 # Other Stuff
 - il primo ML che vedranno e' Simple_Rizzi.ipynb (una semplice rete densa che catgorizza), e sarebbe importante avessero (dai talk di Daniele, Stefano, e Lucio per la parte python) la maggior parte dei concetti teorici almeni sentiti nominare. 
--
+- talk di andrea che usava come introduzione per Simpl_rizzi.ipynb: [https://docs.google.com/presentation/d/16xv9Q4ir767Al2W-7836XhzrVABccRh-jfJCIgApjLc/edit#slide=id.g583abaa780_0_54]
