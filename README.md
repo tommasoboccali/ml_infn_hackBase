@@ -1,8 +1,5 @@
 # ml_infn_hackBase
 files usati da me per tenere traccia dei notebook
-<<<<<<< HEAD
-si cerca di fare in modo che funzionino sia su JH che su colab
-=======
 
 Tutti i files sono supposti funzionare sia da colab, sia da JupyterNotebook dentro INFNCloud
 
@@ -12,4 +9,3 @@ Tutti i files sono supposti funzionare sia da colab, sia da JupyterNotebook dent
 - btaggingTom_Apr25.ipynb: hackathon use case del btagging
 - virgo.ipynb: copia iniziale, non ancora perfettamente funzionante
   - attenzione a pip install gwdama ... pip install gwdama va con il container senza conda ma non quello con conda (fallisce la parte di compilazione)
->>>>>>> c91c19ea7bd4401d1ef268f18ea8aa6e2e0da80e
