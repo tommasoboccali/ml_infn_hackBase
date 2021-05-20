@@ -9,7 +9,11 @@ Tutti i files sono supposti funzionare sia da colab, sia da JupyterNotebook dent
 - btaggingTom_Apr25.ipynb: hackathon use case del btagging
 - virgo.ipynb: copia iniziale, non ancora perfettamente funzionante
   - attenzione a pip install gwdama ... pip install gwdama va con il container senza conda ma non quello con conda (fallisce la parte di compilazione)
-- VBF_exercise.ipynb: use case di Bari, non per il primo hachathon. Valutare per il secondo
+- VBF_exercise.ipynb: use case di Bari, non per il primo hachathon. Valutare per il secondo hackathon
+- lucio1.ipynb: a dispetto del nome, nb per il secondo giorno
+- lucio2.ipynb: a dispetto del nome, nb per il primo giorno
+- retico_checked.ipynb: versione per l'hackathon di fisica medica
+
 
 # Other Stuff
 - il primo ML che vedranno e' Simple_Rizzi.ipynb (una semplice rete densa che catgorizza), e sarebbe importante avessero (dai talk di Daniele, Stefano, e Lucio per la parte python) la maggior parte dei concetti teorici almeni sentiti nominare. 
