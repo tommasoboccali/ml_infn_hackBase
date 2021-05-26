@@ -6,7 +6,7 @@ Tutti i files sono supposti funzionare sia da colab, sia da JupyterNotebook dent
 - Simple_Rizzi.ipynb: test iniziale per far vedere come fare una rete con keras
   - attenzione a numpy 1.20 da' errore, serve 1.19
 - CNN_Rizzi.ipynb: test piu' complesso, NON ci si aspetta di mostrarlo
-- btaggingTom_Apr25.ipynb: hackathon use case del btagging
+- btaggingTom_May26_nocelloutput.ipynb: hackathon use case del btagging. Parts to be removed for the students still there
 - virgo.ipynb: copia iniziale, non ancora perfettamente funzionante
   - attenzione a pip install gwdama ... pip install gwdama va con il container senza conda ma non quello con conda (fallisce la parte di compilazione)
 - VBF_exercise.ipynb: use case di Bari, non per il primo hachathon. Valutare per il secondo hackathon
