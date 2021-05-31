@@ -1,4 +1,4 @@
-### VM_STORAGE IS THE PART TO BE COPIED ON A VM
+### PLEASE NOTE: the relevant part is in the DIRs VM_* that will be copied on the VMs
 
 # ml_infn_hackBase
 files usati da me per tenere traccia dei notebook
