@@ -1,24 +1,25 @@
-!#/bin/bash
+#!/bin/bash
 
-vmshare = /share
-vmbackup = /backup
-vmcollabspace = /vmcollabspace
+vmshared=/jupyter-users/shared
+vmbackup=/jupyter-users/Backup
+vmcollabspace=/usr/local/share/collabspace
 
 
 #apt-get install -u subversion
 
-cd ${vmcollabspace}/VM_COLLABSHARED
+cd ${vmcollabspace}/
 svn update
 
 
-cd ${backup}/VM_BACKUP
+cd ${backup}/
 svn update
 
 
-cd ${vmshare}
+cd ${vmshared}
 for i in $(ls -1)
 do
     cd $i
     svn update
     cd ..
 done
+
