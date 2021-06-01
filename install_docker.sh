@@ -2,7 +2,7 @@
 
 vmshare = /share
 
-myname = $MYNAME
+myname = $USERNAME
 
 
 #apt-get install -u subversion
@@ -14,7 +14,7 @@ then
 else
  mkdir -p $myname
  cd $myname
- svn checkout svn export https://github.com/tommasoboccali/ml_infn_hackBase/trunk/VM_SHARED
+ svn checkout https://github.com/tommasoboccali/ml_infn_hackBase/trunk/VM_SHARED
 fi
 
 
