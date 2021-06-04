@@ -1,25 +1,25 @@
-#!/bin/bash
+#!/bin/sh
 
-vmshared=/jupyter-users/shared
-vmbackup=/jupyter-users/Backup
-vmcollabspace=/usr/local/share/collabspace
-
-
-#apt-get install -u subversion
-
-cd ${vmcollabspace}/
+# fix Backup
+echo Restoring  Backup
+cd /jupyter-users/Backup
+#rm -rf VM_COLLABSHARED  VM_SHARED
 svn update
 
-
-cd ${backup}/
+# fix collabshared
+echo Restoring  collabspace
+cd /usr/local/share/collabspace
+#rm -rf FISMED  GW  HEP
 svn update
 
-
-cd ${vmshared}
+# kill all the user areas
+echo Restoring  shared
+cd /jupyter-users/shared
 for i in $(ls -1)
 do
     cd $i
+    echo === clean $i
+#   rm -rf ANDERLINI  BOMBINI  RIZZI
     svn update
     cd ..
 done
-
