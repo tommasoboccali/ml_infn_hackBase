@@ -12,14 +12,15 @@ cd /usr/local/share/collabspace
 rm -rf FISMED  GW  HEP
 svn update
 
-# kill all the user areas
-echo Restoring  shared
-cd /jupyter-users/shared
-for i in $(ls -1)
-do
-    cd $i
-    echo === clean $i
-    rm -rf ANDERLINI  BOMBINI  RIZZI
-    svn update
-    cd ..
-done
+## kill all the user areas
+#echo Restoring  shared
+#cd /jupyter-users/shared
+#for i in $(ls -1)
+#do
+#    cd $i
+#    echo === clean $i
+#    rm -rf ANDERLINI  BOMBINI  RIZZI
+#    svn update
+#    cd ..
+#done
+#
