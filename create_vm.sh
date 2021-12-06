@@ -3,14 +3,13 @@
 # fix Backup
 echo Creating  Backup
 mkdir -p /jupyter-mount/Backup
+#rm -rf VM_COLLABSHARED  VM_SHARED
 cd  /jupyter-mount/Backup
-rm -rf VM_BACKUP
 svn checkout https://github.com/tommasoboccali/ml_infn_hackBase/trunk/VM_BACKUP
 
 # create collabshared
 echo Creating  collabspace
 cd /jupyter-mounts/collaborativefolder/
-rm -rf /VM_COLLABSHARED
 svn checkout https://github.com/tommasoboccali/ml_infn_hackBase/trunk/VM_COLLABSHARED
 
 # create user areas
@@ -20,7 +19,6 @@ for i in $(ls -1)
 do
     cd $i
     echo === generate $i
-    rm -rf VM_SHARED
     svn checkout https://github.com/tommasoboccali/ml_infn_hackBase/trunk/VM_SHARED
     cd ..
 done
