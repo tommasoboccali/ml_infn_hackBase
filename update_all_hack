@@ -1,0 +1,7 @@
+for i in 10 
+do
+   echo Working on machine $i
+   scp -i ~/.ssh/id_rsa_ciampa1 update_vm_h.sh root@mlinfn${i}.cloud.cnaf.infn.it:/root/update_vm_h.sh
+   ssh -i ~/.ssh/id_rsa_ciampa1 root@mlinfn${i}.cloud.cnaf.infn.it  'chmod +x /root/update_vm_h.sh'
+   ssh -i ~/.ssh/id_rsa_ciampa1 root@mlinfn${i}.cloud.cnaf.infn.it  '/root/update_vm_h.sh'
+done

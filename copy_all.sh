@@ -3,8 +3,8 @@ cp virgo.ipynb VM_COLLABSHARED/GW/
 cp virgo.ipynb VM_BACKUP/VM_COLLABSHARED/GW/
 cp btaggingTom_May26_nocelloutput* VM_COLLABSHARED/HEP_BTAG/
 cp btaggingTom_May26_nocelloutput* VM_BACKUP/VM_COLLABSHARED/HEP_BTAG/
-cp  HiggsSearchesBru_Nov14_nocelloutpu*ipynb VM_COLLABSHARED/HEP_BTAG/
-cp  HiggsSearchesBru_Nov14_nocelloutpu*ipynb VM_BACKUP/VM_COLLABSHARED/HEP_BTAG/
+cp  HiggsSearchesBru_Nov14_nocelloutpu*ipynb VM_COLLABSHARED/HEP_HIGGS/
+cp  HiggsSearchesBru_Nov14_nocelloutpu*ipynb VM_BACKUP/VM_COLLABSHARED/HEP_HIGGS/
 cp DL_classification_M* VM_COLLABSHARED/FISMED/
 cp DL_classification_M* VM_BACKUP/VM_COLLABSHARED/FISMED/
 # handson
