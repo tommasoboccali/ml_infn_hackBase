@@ -10,7 +10,7 @@ svn checkout https://github.com/tommasoboccali/ml_infn_hackBase/trunk/VM_BACKUP
 # create collabshared
 echo Creating  collabspace
 cd /jupyter-mounts/collaborativefolder/
-rm -rf /VM_COLLABSHARED
+rm -rf VM_COLLABSHARED
 svn checkout https://github.com/tommasoboccali/ml_infn_hackBase/trunk/VM_COLLABSHARED
 
 # create user areas
