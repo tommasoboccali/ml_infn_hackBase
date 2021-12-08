@@ -15,7 +15,7 @@ svn update
 
 
 # create user areas
-echo Create user areas
+echo Restoring user areas
 cd /jupyter-mounts/shared
 for i in $(ls -1)
 do
