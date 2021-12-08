@@ -14,3 +14,5 @@ cp lucio*.ipynb VM_BACKUP/VM_SHARED/ANDERLINI
 cp lucio*.ipynb VM_SHARED/ANDERLINI
 cp Simple*.ipynb VM_SHARED/RIZZI
 cp Simple*.ipynb VM_BACKUP/VM_SHARED/RIZZI
+cp CNN_Rizzi.ipynb VM_SHARED/RIZZI
+cp CNN_Rizzi.ipynb VM_BACKUP/VM_SHARED/RIZZI
