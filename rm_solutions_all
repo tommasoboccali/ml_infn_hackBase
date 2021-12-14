@@ -1,0 +1,7 @@
+for i in 1 2 3 4 5 6 7 8 9 10
+do
+   echo Working on machine $i
+   scp -i ~/.ssh/id_rsa_ciampa1 rm_solutions_vm.sh root@mlinfn${i}.cloud.cnaf.infn.it:/root/rm_solutions_vm.sh
+   ssh -i ~/.ssh/id_rsa_ciampa1 root@mlinfn${i}.cloud.cnaf.infn.it  'chmod +x /root/rm_solutions_vm.sh'
+   ssh -i ~/.ssh/id_rsa_ciampa1 root@mlinfn${i}.cloud.cnaf.infn.it  '/root/rm_solutions_vm.sh'
+done
