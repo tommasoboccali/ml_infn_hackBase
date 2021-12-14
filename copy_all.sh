@@ -1,6 +1,6 @@
 cd /Users/tom/github/ml_infn_hackBase
-cp virgo.ipynb VM_COLLABSHARED/GW/
-cp virgo.ipynb VM_BACKUP/VM_COLLABSHARED/GW/
+cp virgo*.ipynb VM_COLLABSHARED/GW/
+cp virgo*.ipynb VM_BACKUP/VM_COLLABSHARED/GW/
 cp btaggingTom_May26_nocelloutput* VM_COLLABSHARED/HEP_BTAG/
 cp btaggingTom_May26_nocelloutput* VM_BACKUP/VM_COLLABSHARED/HEP_BTAG/
 cp  HiggsSearchesBru_Nov14_nocelloutpu*ipynb VM_COLLABSHARED/HEP_HIGGS/
