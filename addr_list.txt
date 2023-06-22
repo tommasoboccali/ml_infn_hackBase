@@ -1,0 +1,11 @@
+131.154.97.82
+mlinfn1.cloud.cnaf.infn.it
+mlinfn2.cloud.cnaf.infn.it
+mlinfn3.cloud.cnaf.infn.it
+mlinfn4.cloud.cnaf.infn.it
+mlinfn5.cloud.cnaf.infn.it
+mlinfn6.cloud.cnaf.infn.it
+mlinfn7.cloud.cnaf.infn.it
+mlinfn8.cloud.cnaf.infn.it
+mlinfn9.cloud.cnaf.infn.it
+mlinfn10.cloud.cnaf.infn.it
